@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicoTelegrama", "ejercicoTelegrama\ejercicoTelegrama.csproj", "{8B25D9B6-0040-4860-B551-C7923F2EE360}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B25D9B6-0040-4860-B551-C7923F2EE360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B25D9B6-0040-4860-B551-C7923F2EE360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B25D9B6-0040-4860-B551-C7923F2EE360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B25D9B6-0040-4860-B551-C7923F2EE360}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {793BEB44-8805-41F2-BDB5-8D74D80ACABA}
+	EndGlobalSection
+EndGlobal
