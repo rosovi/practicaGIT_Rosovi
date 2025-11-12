@@ -85,7 +85,7 @@
             // rbtnUrgente
             // 
             this.rbtnUrgente.AutoSize = true;
-            this.rbtnUrgente.Location = new System.Drawing.Point(242, 211);
+            this.rbtnUrgente.Location = new System.Drawing.Point(239, 211);
             this.rbtnUrgente.Name = "rbtnUrgente";
             this.rbtnUrgente.Size = new System.Drawing.Size(70, 17);
             this.rbtnUrgente.TabIndex = 6;
