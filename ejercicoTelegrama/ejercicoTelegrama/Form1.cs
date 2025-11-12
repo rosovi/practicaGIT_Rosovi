@@ -40,12 +40,12 @@ namespace ejercicoTelegrama
             {
                 if (numPalabras <= 10)
                 {
-                    coste = 2.5;
+                    coste = 3;
                 }
                 else
                 {
                     coste = 0;
-                    coste = 2.5 + 0.5 * (numPalabras - 10);
+                    coste = 3 + 0.5 * (numPalabras - 10);
                 }
             }
             else
@@ -55,11 +55,11 @@ namespace ejercicoTelegrama
                 {
                     if (numPalabras <= 10)
                     {
-                        coste = 5;
+                        coste = 6;
                     }
                     else
                     {
-                        coste = 5 + 0.75 * (numPalabras - 10);
+                        coste = 6 + 0.75 * (numPalabras - 10);
                     }
                 }
                 else

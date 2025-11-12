@@ -85,7 +85,7 @@
             // rbtnUrgente
             // 
             this.rbtnUrgente.AutoSize = true;
-            this.rbtnUrgente.Location = new System.Drawing.Point(239, 211);
+            this.rbtnUrgente.Location = new System.Drawing.Point(162, 211);
             this.rbtnUrgente.Name = "rbtnUrgente";
             this.rbtnUrgente.Size = new System.Drawing.Size(70, 17);
             this.rbtnUrgente.TabIndex = 6;
@@ -96,7 +96,7 @@
             // rbtnOrdinario
             // 
             this.rbtnOrdinario.AutoSize = true;
-            this.rbtnOrdinario.Location = new System.Drawing.Point(346, 211);
+            this.rbtnOrdinario.Location = new System.Drawing.Point(269, 211);
             this.rbtnOrdinario.Name = "rbtnOrdinario";
             this.rbtnOrdinario.Size = new System.Drawing.Size(76, 17);
             this.rbtnOrdinario.TabIndex = 7;
