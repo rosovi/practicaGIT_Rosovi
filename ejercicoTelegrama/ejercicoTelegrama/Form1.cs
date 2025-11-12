@@ -23,7 +23,7 @@ namespace ejercicoTelegrama
             char tipoTelegrama = 'o';
             int numPalabras = 0;
             double coste = 0;
-
+            //cambios dani
             //Leo el telegrama  
             textoTelegrama = txtTelegrama.Text.Trim();
             // telegrama urgente? 
