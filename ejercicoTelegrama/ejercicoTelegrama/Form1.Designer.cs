@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.btnCalcular = new System.Windows.Forms.Button();
-            this.chkUrgente = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.txtTelegrama = new System.Windows.Forms.TextBox();
+            this.rbtnUrgente = new System.Windows.Forms.RadioButton();
+            this.rbtnOrdinario = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // btnCalcular
@@ -46,17 +47,6 @@
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
-            // 
-            // chkUrgente
-            // 
-            this.chkUrgente.AutoSize = true;
-            this.chkUrgente.Location = new System.Drawing.Point(156, 211);
-            this.chkUrgente.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.chkUrgente.Name = "chkUrgente";
-            this.chkUrgente.Size = new System.Drawing.Size(78, 17);
-            this.chkUrgente.TabIndex = 1;
-            this.chkUrgente.Text = "Urgente?";
-            this.chkUrgente.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -92,16 +82,39 @@
             this.txtTelegrama.Size = new System.Drawing.Size(626, 69);
             this.txtTelegrama.TabIndex = 5;
             // 
+            // rbtnUrgente
+            // 
+            this.rbtnUrgente.AutoSize = true;
+            this.rbtnUrgente.Location = new System.Drawing.Point(242, 211);
+            this.rbtnUrgente.Name = "rbtnUrgente";
+            this.rbtnUrgente.Size = new System.Drawing.Size(70, 17);
+            this.rbtnUrgente.TabIndex = 6;
+            this.rbtnUrgente.TabStop = true;
+            this.rbtnUrgente.Text = "Urgente";
+            this.rbtnUrgente.UseVisualStyleBackColor = true;
+            // 
+            // rbtnOrdinario
+            // 
+            this.rbtnOrdinario.AutoSize = true;
+            this.rbtnOrdinario.Location = new System.Drawing.Point(346, 211);
+            this.rbtnOrdinario.Name = "rbtnOrdinario";
+            this.rbtnOrdinario.Size = new System.Drawing.Size(76, 17);
+            this.rbtnOrdinario.TabIndex = 7;
+            this.rbtnOrdinario.TabStop = true;
+            this.rbtnOrdinario.Text = "Ordinario";
+            this.rbtnOrdinario.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 450);
+            this.Controls.Add(this.rbtnOrdinario);
+            this.Controls.Add(this.rbtnUrgente);
             this.Controls.Add(this.txtTelegrama);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.chkUrgente);
             this.Controls.Add(this.btnCalcular);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -115,11 +128,12 @@
         #endregion
 
         private System.Windows.Forms.Button btnCalcular;
-        private System.Windows.Forms.CheckBox chkUrgente;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.TextBox txtTelegrama;
+        private System.Windows.Forms.RadioButton rbtnUrgente;
+        private System.Windows.Forms.RadioButton rbtnOrdinario;
     }
 }
 
